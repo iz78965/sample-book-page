@@ -6,7 +6,11 @@ import Book from './Book.jsx';
 
 const Booklist = () => {
     return(
-        <section>
+        <section className="booklist">
+            <Book/>
+            <Book/>
+            <Book/>
+            <Book/>
             <Book/>
         </section>
 
